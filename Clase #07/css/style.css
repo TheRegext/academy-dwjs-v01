@@ -1,0 +1,33 @@
+body, html{
+    cursor: none;
+}
+
+.tablero{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(50px * 5);
+    user-select: none;
+}
+
+.tablero>div{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*cursor: pointer;*/
+    
+}
+
+
+.point{
+    border: 1px solid #000;
+    height: 5px;
+    width: 5px;
+    border-radius: 30px;
+    position: absolute;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="https://wa.me/+5411111111"> Enviar EMAIL</a>
+
+    <!-- https://miweb.com?dato=ddasdsa&dato2=454 -->
+
+    <!-- <form action="https://wa.me/+5411111111/" method="get" enctype="application/x-www-form-urlencoded"> -->
+    <form id="form">
+        <label>Nombre: <input type="text" name="text"/></label>
+        <br>
+        <fieldset>
+            <legend>Lenguajes</legend>
+            <label><input type="checkbox" name="lenguajes" value="c++" /> C++</label>
+            <label><input type="checkbox" name="lenguajes" value="javascript" /> JavaScript</label>
+            <label><input type="checkbox" name="lenguajes" value="c#"/> C#</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seniority</legend>
+            <label><input type="radio" name="seniority" value="Jr" /> Jr</label>
+            <label><input type="radio" name="seniority" value="Ssr" /> SSr</label>
+            <label><input type="radio" name="seniority" value="Sr"/> Sr</label>
+        </fieldset>
+
+        <select name="color">
+            <option value="#F00">Rojo</option>
+            <option value="#00F">Azul</option>
+            <option value="#0F0">Verde</option>
+        </select>
+
+        <textarea name="comentario" rows="10"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <ul id="list">
+
+    </ul>
+
+
+
+    <script src="js/formulario.js"></script>
+</body>
+</html>
