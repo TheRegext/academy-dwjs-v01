@@ -1,0 +1,14 @@
+.form-question{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-question label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-question label input{
+    flex: 1;
+}
